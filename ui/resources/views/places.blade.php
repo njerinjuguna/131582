@@ -14,8 +14,8 @@
                         <p class="card-text">
                             <i class="fas fa-building"></i>&nbsp; <strong>Location:</strong> <a href="{{ $place->location_url }}" target="_blank">{{ $place->location_url }}</a><br><br>
                             <strong>Type:</strong> {{ $place->type }}<br>
-                            <i class="fas fa-bed"></i>&nbsp; <strong>Bedrooms:</strong> {{ $place->num_bedrooms }}<br>
-                            <i class="fas fa-shower"></i>&nbsp; <strong>Bathrooms:</strong> {{ $place->num_bathrooms }}<br>
+                            <i class="fas fa-bed"></i>&nbsp; <strong>Bedrooms:</strong> {{ $place->bedrooms }}<br>
+                            <i class="fas fa-shower"></i>&nbsp; <strong>Bathrooms:</strong> {{ $place->bathrooms }}<br>
                             <i class="fas fa-user-friends"></i>&nbsp; <strong>Max Guests:</strong> {{ $place->max_guests }}<br>
                             <i class="fas fa-money-bill-wave"></i>&nbsp; <strong>Price:</strong> {{ $place->price }}<br>
                         </p>
