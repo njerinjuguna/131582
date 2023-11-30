@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/places', '\App\Http\Controllers\PlacesController@index');
+Route::get('/places', '\App\Http\Controllers\PlacesController@index'); // Route handler for our places view

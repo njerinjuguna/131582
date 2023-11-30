@@ -10,8 +10,8 @@ class PlacesController extends Controller
     //
     public function index()
     {
-        $places = Places::all();
+        $places = Places::all(); // Get all place records from the db
 
-        return view('places', compact('places'));
+        return view('places', compact('places')); // Return ui with data
     }
 }
