@@ -1,0 +1,29 @@
+:root {
+    --main-color: #111e6c;
+}
+
+body {
+    background-color: var(--main-color) !important;
+}
+
+.mainbg {
+    background-color: var(--main-color) !important;
+}
+
+.maincolor {
+    color: var(--main-color);
+}
+
+.white {
+    color: white !important;
+}
+
+.uform {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    border: solid;
+}
